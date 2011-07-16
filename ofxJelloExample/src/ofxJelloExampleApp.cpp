@@ -4,6 +4,16 @@
 void ofxJelloExampleApp::setup(){
 	ofSetWindowTitle("ofxJelloExampleApp");
 	ofBackground(0,0,0);
+
+	ofPolyline ground;
+	ground.addVertex(ofPoint(0,0));
+	ground.addVertex(ofPoint(500,0));
+	ground.addVertex(ofPoint(500,5));
+	ground.addVertex(ofPoint(0,5));
+
+	groundBody.createBody(ground, 1, ofPoint(ofGetWidth()*.25, ofGetHeight()*.25));
+
+	jello.addBody(&groundBody);
 }
 
 //--------------------------------------------------------------

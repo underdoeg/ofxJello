@@ -5,7 +5,6 @@
 
 class ofxJelloExampleApp : public ofBaseApp
 {
-
 public:
 	void setup();
 	void update();
@@ -22,4 +21,5 @@ public:
 	void gotMessage(ofMessage msg);
 
 	ofxJello jello;
+	ofxJelloBody groundBody;
 };

@@ -1,5 +1,6 @@
 #include "ClosedShape.h"
 #include "VectorTools.h"
+#include <iostream>
 
 ClosedShape::ClosedShape()
 {

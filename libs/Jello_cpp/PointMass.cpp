@@ -1,4 +1,5 @@
 #include "PointMass.h"
+#include <iostream>
 
 PointMass::PointMass()
 {

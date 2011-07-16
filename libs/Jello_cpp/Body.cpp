@@ -1,5 +1,6 @@
 #include "Body.h"
 #include "VectorTools.h"
+#include <iostream>
 
 Body::Body()
 {
@@ -151,7 +152,6 @@ void Body::setShape(ClosedShape *shape)
 		mShapeCount = mBaseShape->Vertices().size();
 		//marcin
 		mShapeCount+=1;
-
         mBaseShape->transformVertices(mDerivedPos, mDerivedAngle, mScale, mGlobalShape);
 
         for (unsigned int i = 0; i < mBaseShape->Vertices().size(); i++)
