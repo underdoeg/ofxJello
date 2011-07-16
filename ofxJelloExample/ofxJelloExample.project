@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="ofxJelloExample" InternalType="">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="libs">
+    <VirtualDirectory Name="Jello_cpp">
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/CollisionFilter.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/InternalSpring.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/ClosedShape.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/Bitmask.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/AABB.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/Vector3.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/Vector2.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/VectorTools.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/World.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/Vector3.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/Body.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/Body.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/Vector2.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/World.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/AABB.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/SpringBody.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/PressureBody.cpp"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/SpringBody.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/ClosedShape.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/PressureBody.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/VectorTools.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/PointMass.h"/>
+      <File Name="../../../addons/ofxJello/libs/Jello_cpp/PointMass.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="src/ofxJelloExampleApp.cpp"/>
+    <File Name="src/ofxJelloExampleApp.h"/>
+    <File Name="src/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="config">
+    <File Name="Makefile"/>
+    <File Name="config.make"/>
+    <File Name="addons.make"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(ProjectPath)/bin" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      
+      
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand/>
+        <CleanCommand>make clean</CleanCommand>
+        <BuildCommand>make</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory>$(ProjectPath)</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="./Release" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      
+      
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand/>
+        <CleanCommand>make clean</CleanCommand>
+        <BuildCommand>make</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <VirtualDirectory Name="ofxJello">
+    <File Name="../../../addons/ofxJello/src/ofxJello.cpp"/>
+    <File Name="../../../addons/ofxJello/src/ofxJello.h"/>
+    <File Name="../../../addons/ofxJello/src/ofxJelloBody.cpp"/>
+    <File Name="../../../addons/ofxJello/src/ofxJelloBody.h"/>
+  </VirtualDirectory>
+</CodeLite_Project>

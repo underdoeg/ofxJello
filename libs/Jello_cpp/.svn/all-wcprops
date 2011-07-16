@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/40/trunk/Jello_cpp
+END
+Bitmask.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/23/trunk/Jello_cpp/Bitmask.h
+END
+ClosedShape.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/23/trunk/Jello_cpp/ClosedShape.h
+END
+Lesson3.dsw
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/22/trunk/Jello_cpp/Lesson3.dsw
+END
+Renderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/23/trunk/Jello_cpp/Renderer.h
+END
+Jello.sln
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/22/trunk/Jello_cpp/Jello.sln
+END
+SpringBody.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/40/trunk/Jello_cpp/SpringBody.cpp
+END
+PointMass.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/23/trunk/Jello_cpp/PointMass.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/33/trunk/Jello_cpp/main.cpp
+END
+AABB.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/22/trunk/Jello_cpp/AABB.cpp
+END
+PressureBody.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/33/trunk/Jello_cpp/PressureBody.cpp
+END
+World.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/33/trunk/Jello_cpp/World.cpp
+END
+VectorTools.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/23/trunk/Jello_cpp/VectorTools.h
+END
+Vector2.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/35/trunk/Jello_cpp/Vector2.h
+END
+ClosedShape.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/22/trunk/Jello_cpp/ClosedShape.cpp
+END
+Vector3.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/22/trunk/Jello_cpp/Vector3.h
+END
+Body.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/33/trunk/Jello_cpp/Body.h
+END
+InternalSpring.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/23/trunk/Jello_cpp/InternalSpring.h
+END
+CollisionFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/25/trunk/Jello_cpp/CollisionFilter.h
+END
+Lesson3.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/27/trunk/Jello_cpp/Lesson3.vcproj
+END
+PointMass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/22/trunk/Jello_cpp/PointMass.cpp
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/22/trunk/Jello_cpp/LICENSE.txt
+END
+VectorTools.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/33/trunk/Jello_cpp/VectorTools.cpp
+END
+Vector2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/35/trunk/Jello_cpp/Vector2.cpp
+END
+SpringBody.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/23/trunk/Jello_cpp/SpringBody.h
+END
+Vector3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/33/trunk/Jello_cpp/Vector3.cpp
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/31/trunk/Jello_cpp/README.txt
+END
+AABB.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/23/trunk/Jello_cpp/AABB.h
+END
+Lesson3.dsp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/22/trunk/Jello_cpp/Lesson3.dsp
+END
+PressureBody.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/23/trunk/Jello_cpp/PressureBody.h
+END
+World.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/33/trunk/Jello_cpp/World.h
+END
+Body.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/33/trunk/Jello_cpp/Body.cpp
+END
